@@ -1,0 +1,7 @@
+#surefire
+#Sat Dec 08 11:06:12 CST 2018
+basedir=C\:\\IDEAProjects\\springdemo01
+idea.version=2018.1.6
+user.dir=C\:\\IDEAProjects\\springdemo01
+maven.repo.local=C\:\\apache-maven
+localRepository=C\:\\apache-maven

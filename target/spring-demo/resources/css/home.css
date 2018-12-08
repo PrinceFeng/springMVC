@@ -1,0 +1,43 @@
+body {margin:0;padding:0;background-color:#000000;font-size:0;overflow:hidden}
+div {margin:0;padding:0;font-size:20px;overflow:hidden}
+canvas{background-color:#000000;overflow:hidden}
+/*img{width: 380px}*/
+.container{
+    position: absolute;
+    color:#fff;
+    z-index: 1;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow-Y:scroll;
+    text-align: center;
+}
+.inner{
+    text-align: left;
+    width: 1160px;
+    position: relative;
+    left: 50%;
+    margin-left: -580px;
+}
+
+#uploadBtn {
+    background: black;
+
+}
+
+.imgWrapper{
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    background: #2B2B2B;
+}
+
+.imgWrapper img{
+    width: 280px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

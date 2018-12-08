@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <html lang="zh-CN">
+
+<head>
+
+    <title>Hello World</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="content-language" content="zh-CN">
+
+	<!-- 网站图标 -->
+	<link rel="shortcut icon" href="../spring-demo/resources/icon/favicon.ico" type="image/x-icon" />
+
+	<!--../resources/css/iconfont.css-->
+
+	<link rel="stylesheet" href="../spring-demo/resources/css/baguetteBox.css">
+	<link rel="stylesheet" href="../spring-demo/resources/css/style.css">
+
+	<link rel="stylesheet" href="../spring-demo/resources/css/home.css">
+	<link rel="stylesheet" href="../spring-demo/resources/css/iconfont.css">
+	<link rel="stylesheet" href="../spring-demo/resources/css/iconfont-upload.css">
+
+
+</head>
+
+<script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
+
+<body onload="start()" onresize="resize()" onorientationchange="resize()" onmousedown="context.fillStyle='rgba(0,0,0,'+opacity+')'" onmouseup="context.fillStyle='rgb(0,0,0)'">
+	<canvas id="starfield" style="background-color:#000000">
+	</canvas>
+
+	<div id="adsense" style="position:absolute;background-color:transparent;display:none">
+	</div>
+
+	<div class="container">
+		<div id="uploadBtn">
+			<!-- 上传图片按钮 -->
+			<a style="text-decoration: none;color: white" href="/spring-demo/file/upload">
+				<i class="iconfont icon-yunshangchuan" style="font-size:35px"></i>
+			</a>
+		</div>
+		<span style="color:white;text-align: center;font-size:40px">Hello World</span>
+		<!-- 图片容器 -->
+		<div id="images" class="inner">
+
+		</div>
+	</div>
+
+	<div id="goTopBtn"><span class="icon_top"></span></div>
+
+
+	<div id="imageViewer"></div>
+	<script src="../spring-demo/resources/js/imageViewer.js"></script>
+	<script>
+        window.addEventListener("load", function() {
+            imageViewer.init({
+                imgListId: "images",
+                viewerId: "imageViewer",
+                zindex: '8' //非必需，默认9999
+            });
+        },false)
+	</script>
+
+</body>
+
+</html>
+
+<script src="../spring-demo/resources/js/home.js"></script>
+

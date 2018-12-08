@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.prince.demo.BaseTest" time="0.377" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2018.1.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.boot.library.path" value="C:\Base_Tools\JDK10.0\bin"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\IDEAProjects\springdemo01"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\IDEAProjects\springdemo01"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\IDEAProjects\springdemo01\target\surefire\surefirebooter8743048933285075502.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\陈树峰\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Base_Tools\JDK10.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Base_Tools\JDK8\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\alogic-ketty-server;C:\apache-maven-3.5.4\bin;C:\Base_Tools\Git\Git\cmd;C:\Base_Tools\docker toolbox\Docker Toolbox;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Base_Tools\gradle-4.10.1\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ZooKeeper\zookeeper-3.4.13\bin;C:\Users\陈树峰\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="surefire.test.class.path" value="C:\IDEAProjects\springdemo01\target\test-classes;C:\IDEAProjects\springdemo01\target\classes;C:\apache-maven\junit\junit\4.12\junit-4.12.jar;C:\apache-maven\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\apache-maven\org\springframework\spring-core\4.3.7.RELEASE\spring-core-4.3.7.RELEASE.jar;C:\apache-maven\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\apache-maven\org\springframework\spring-beans\4.3.7.RELEASE\spring-beans-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-context\4.3.7.RELEASE\spring-context-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-aop\4.3.7.RELEASE\spring-aop-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-expression\4.3.7.RELEASE\spring-expression-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-jdbc\4.3.7.RELEASE\spring-jdbc-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-tx\4.3.7.RELEASE\spring-tx-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-web\4.3.7.RELEASE\spring-web-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-webmvc\4.3.7.RELEASE\spring-webmvc-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-test\4.3.7.RELEASE\spring-test-4.3.7.RELEASE.jar;C:\apache-maven\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\apache-maven\com\fasterxml\jackson\core\jackson-databind\2.8.7\jackson-databind-2.8.7.jar;C:\apache-maven\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\apache-maven\com\fasterxml\jackson\core\jackson-core\2.8.7\jackson-core-2.8.7.jar;C:\apache-maven\commons-collections\commons-collections\3.2\commons-collections-3.2.jar;C:\apache-maven\org\mybatis\mybatis\3.4.2\mybatis-3.4.2.jar;C:\apache-maven\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\apache-maven\mysql\mysql-connector-java\5.1.37\mysql-connector-java-5.1.37.jar;C:\apache-maven\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;C:\apache-maven\net\coobird\thumbnailator\0.4.8\thumbnailator-0.4.8.jar;C:\apache-maven\com\github\penggle\kaptcha\2.3.2\kaptcha-2.3.2.jar;C:\apache-maven\com\jhlabs\filters\2.0.235-1\filters-2.0.235-1.jar;C:\apache-maven\commons-fileupload\commons-fileupload\1.3.2\commons-fileupload-1.3.2.jar;C:\apache-maven\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\apache-maven\com\sun\jersey\jersey-client\1.19.4\jersey-client-1.19.4.jar;C:\apache-maven\com\sun\jersey\jersey-core\1.19.4\jersey-core-1.19.4.jar;C:\apache-maven\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="C:\apache-maven"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\陈树峰"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="user.name" value="陈树峰"/>
+    <property name="java.class.path" value="C:\IDEAProjects\springdemo01\target\test-classes;C:\IDEAProjects\springdemo01\target\classes;C:\apache-maven\junit\junit\4.12\junit-4.12.jar;C:\apache-maven\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\apache-maven\org\springframework\spring-core\4.3.7.RELEASE\spring-core-4.3.7.RELEASE.jar;C:\apache-maven\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\apache-maven\org\springframework\spring-beans\4.3.7.RELEASE\spring-beans-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-context\4.3.7.RELEASE\spring-context-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-aop\4.3.7.RELEASE\spring-aop-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-expression\4.3.7.RELEASE\spring-expression-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-jdbc\4.3.7.RELEASE\spring-jdbc-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-tx\4.3.7.RELEASE\spring-tx-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-web\4.3.7.RELEASE\spring-web-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-webmvc\4.3.7.RELEASE\spring-webmvc-4.3.7.RELEASE.jar;C:\apache-maven\org\springframework\spring-test\4.3.7.RELEASE\spring-test-4.3.7.RELEASE.jar;C:\apache-maven\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\apache-maven\com\fasterxml\jackson\core\jackson-databind\2.8.7\jackson-databind-2.8.7.jar;C:\apache-maven\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\apache-maven\com\fasterxml\jackson\core\jackson-core\2.8.7\jackson-core-2.8.7.jar;C:\apache-maven\commons-collections\commons-collections\3.2\commons-collections-3.2.jar;C:\apache-maven\org\mybatis\mybatis\3.4.2\mybatis-3.4.2.jar;C:\apache-maven\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\apache-maven\mysql\mysql-connector-java\5.1.37\mysql-connector-java-5.1.37.jar;C:\apache-maven\c3p0\c3p0\0.9.1.2\c3p0-0.9.1.2.jar;C:\apache-maven\net\coobird\thumbnailator\0.4.8\thumbnailator-0.4.8.jar;C:\apache-maven\com\github\penggle\kaptcha\2.3.2\kaptcha-2.3.2.jar;C:\apache-maven\com\jhlabs\filters\2.0.235-1\filters-2.0.235-1.jar;C:\apache-maven\commons-fileupload\commons-fileupload\1.3.2\commons-fileupload-1.3.2.jar;C:\apache-maven\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\apache-maven\com\sun\jersey\jersey-client\1.19.4\jersey-client-1.19.4.jar;C:\apache-maven\com\sun\jersey\jersey-core\1.19.4\jersey-core-1.19.4.jar;C:\apache-maven\javax\ws\rs\jsr311-api\1.1.1\jsr311-api-1.1.1.jar;"/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="C:\IDEAProjects\springdemo01\target\surefire\surefirebooter8743048933285075502.jar C:\IDEAProjects\springdemo01\target\surefire\surefire17578489771328159354tmp C:\IDEAProjects\springdemo01\target\surefire\surefire12863662848958918392tmp"/>
+    <property name="java.home" value="C:\Base_Tools\JDK10.0"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\apache-maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.prince.demo.BaseTest" name="initializationError" time="0.016">
+    <error message="No runnable methods" type="java.lang.Exception">java.lang.Exception: No runnable methods
+	at org.junit.runners.BlockJUnit4ClassRunner.validateInstanceMethods(BlockJUnit4ClassRunner.java:191)
+	at org.junit.runners.BlockJUnit4ClassRunner.collectInitializationErrors(BlockJUnit4ClassRunner.java:128)
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:416)
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:84)
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:65)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.&lt;init&gt;(SpringJUnit4ClassRunner.java:138)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:146)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</error>
+    <system-out>@HL
+@HL-------------------------------------------------------
+@HL T E S T S
+@HL-------------------------------------------------------
+@SLRunning com.prince.demo.BaseTest
+</system-out>
+  </testcase>
+</testsuite>

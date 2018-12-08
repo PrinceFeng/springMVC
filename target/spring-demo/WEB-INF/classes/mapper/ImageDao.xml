@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.prince.demo.dao.ImageDao">
+    <!-- 查询用户信息列表 -->
+    <insert id="insertImage">
+        insert into
+          cs_image(img_id, img_name, img_tag, img_description, img_create_time, img_update_time)
+        values(#{imgId}, #{imgName}, #{imgTag}, #{imgDescription}, #{imgCreateTime}, #{imgUpdateTime})
+    </insert>
+
+    <select id="queryImageList" resultType="com.prince.demo.entity.Image">
+        select
+          img_id,
+          img_name,
+          img_tag,
+          img_description,
+          img_create_time,
+          img_update_time
+        from
+          cs_image
+        order by img_create_time DESC
+    </select>
+
+</mapper>
